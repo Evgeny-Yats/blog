@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.blog');
+Route::get('/', 'ArticleController@index');
+Route::get('/test', function ($name = null) {
+    return view('shop.shop');
 });
 
+
 Route::resource('/article','ArticleController');
+Route::resource('/category','CategoryController');
+Route::resource('/product','ProductController');
 
 Auth::routes();
 

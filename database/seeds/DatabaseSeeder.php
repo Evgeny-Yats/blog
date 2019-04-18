@@ -14,5 +14,8 @@ class DatabaseSeeder extends Seeder
         factory(App\Category::class, rand(3,7))->create()->each(function($category) {
             $category->article()->saveMany(factory(App\Article::class, rand(2,8))->make());
         });
+
+        factory(App\Product::class, rand(10,25))->create();
+
     }
 }

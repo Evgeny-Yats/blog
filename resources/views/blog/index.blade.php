@@ -1,6 +1,6 @@
 @extends('layouts.blog')
 
-@section('content')
+@section('content1')
     <div class="blog-classic">
     @foreach($articles as $article)
     <div class="news-block-two">
@@ -28,5 +28,6 @@
 
     @endforeach
     </div>
+    {{ $articles->links() }}
 
 @endsection
