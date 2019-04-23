@@ -12,8 +12,9 @@
 */
 
 Route::get('/', 'ArticleController@index');
+
 Route::get('/test', function ($name = null) {
-    return view('shop.shop');
+        return view('shop.shop');
 });
 
 
