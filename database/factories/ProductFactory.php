@@ -11,3 +11,7 @@ $factory->define(App\Product::class, function (Faker $faker) {
 //        'body' => $faker->realText(rand(800, 2000)),
     ];
 });
+/*
+запустить vagrant ssh
+факторис
+шаблон*/
