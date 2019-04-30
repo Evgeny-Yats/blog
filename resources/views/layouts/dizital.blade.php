@@ -219,7 +219,7 @@
                             <div class="footer-column col-lg-7 col-md-7 col-sm-12">
 								<div class="footer-widget logo-widget">
 									<div class="logo">
-										<a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
+										<a href="index.html"><img src="/assets/blog/images/footer-logo.png" alt="" /></a>
 									</div>
 									<div class="text">Lorem Ipsum proin gravida nibh vel velit aucsollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</div>
 									<ul class="social-icon-one">

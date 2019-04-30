@@ -19,6 +19,9 @@ class CreateTeamsTable extends Migration
             $table->string('title');
             $table->string('view');
             $table->string('body');
+            $table->char('facebook');
+            $table->char('pinterest');
+            $table->char('twitter');
             $table->timestamps();
         });
     }

@@ -21,6 +21,7 @@ Route::get('/test', function ($name = null) {
 Route::resource('/article','ArticleController');
 Route::resource('/category','CategoryController');
 Route::resource('/product','ProductController');
+Route::resource('/team', 'TeamController');
 
 Auth::routes();
 

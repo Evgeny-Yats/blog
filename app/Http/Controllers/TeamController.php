@@ -23,9 +23,12 @@ class TeamController extends Controller
 
     public function index()
     {
-        $teams = team::getTeam(4);
+        $teams = TeamController::getTeam(4);
 
         return view('team.index',compact('teams'));
+
+        //$teams = Team::all();
+        //return view('team.index',compact('teams'));
     }
 
     /**
